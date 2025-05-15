@@ -1,0 +1,26 @@
+[
+  {
+    "name": "user1",
+    "email": "user1@example.com",
+    "role": "Admin",
+    "details": "This user is responsible for providing administrative support within an organization, ensuring the smooth and efficient running of daily operations."
+  },
+  {
+    "name": "user2",
+    "email": "user2@example.com",
+    "role": "Manager",
+    "details": "This user is responsible for planning, organizing, leading, and controlling resources to ensure efficiency and productivity."
+  },
+  {
+    "name": "user3",
+    "email": "user3@example.com",
+    "role": "Developer",
+    "details": "This user is reponsible for designing, building, testing, and maintaining software applications and systems."
+  },
+  {
+    "name": "user4",
+    "email": "user4@example.com",
+    "role": "Employee",
+    "details": "Involves fulfilling specific duties and responsibilities outlined in their job description, while also contributing to the overall success of the organization."
+  }
+]

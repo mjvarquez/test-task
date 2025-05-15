@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
+import "./UserInfo.css";
 
-export default function UserInfo({ id, userInfo }) {
+export default function UserInfo({ userInfo }) {
   const [showDetails, setShowDetails] = useState(false);
-  console.log(showDetails);
+
   return (
     <>
-      <div key={id}>
-        <div>
+      <div key={userInfo.id}>
+        <div className="info">
           <span>Name: {userInfo.name}</span>
           <span>Email: {userInfo.email}</span>
           <span>Role: {userInfo.role}</span>
@@ -14,7 +15,7 @@ export default function UserInfo({ id, userInfo }) {
         <button onClick={() => setShowDetails((prev) => !prev)}>
           <span>Show</span>
         </button>
-        {showDetails ? <p>{userInfo.details}</p> : null}
+        {showDetails ? <p>Details: {userInfo.details}</p> : null}
       </div>
     </>
   );
